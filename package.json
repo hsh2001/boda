@@ -1,11 +1,11 @@
 {
-  "name": "e2e-test",
+  "name": "boda",
   "version": "0.0.1",
   "description": "E2E test + send screenshot of web site and send it to Slack!",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/hsh2001/e2e-test",
+  "repository": "https://github.com/hsh2001/boda",
   "license": "MIT",
   "keywords": [],
   "scripts": {
