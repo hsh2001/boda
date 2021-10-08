@@ -1,3 +1,3 @@
-# ts-template
+# e2e-test
 
-enter your description
+E2E test + send screenshot of web site and send it to Slack!
