@@ -1,5 +1,6 @@
 {
-  "extends": [
-    "config:base"
-  ]
+  "labels": ["dependencies"],
+  "extends": ["config:base"],
+  "baseBranches": ["update-dependencies"],
+  "ignorePaths": ["typeorm/typeorm"]
 }
