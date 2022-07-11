@@ -11,9 +11,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 12.x
-      - name: npm install
-        run: npm i --force
+      - run: yarn
       - name: Build product
-        run: npm run build
+        run: yarn build
         env:
           CI: true

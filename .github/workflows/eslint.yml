@@ -11,9 +11,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 12.x
-      - name: npm install
-        run: npm i --force
+      - run: yarn
       - name: Check ESLint
-        run: npm run fix:lint
+        run: yarn fix:lint
         env:
           CI: true
